@@ -2,9 +2,9 @@
 
 1. Create an `config.env` file
 ```
-POSTGRES_USER=username
-POSTGRES_PASSWORD=password
-POSTGRES_DB=public
+# Database config
+MONGO_INITDB_ROOT_USERNAME=root
+MONGO_INITDB_ROOT_PASSWORD=rootpassword
 ```
 
 2. Run with docker compose
